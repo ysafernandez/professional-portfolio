@@ -132,15 +132,13 @@ img {
 
 
 .content {
-        margin:auto;
-        padding: 20px;
-        clear: both;
-        width: 75%;
-        height: 100%;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        background-color: blanchedalmond;
-        display: inline-block;
-        justify-content: flex-start;
+    margin:auto;
+    padding: 20px;
+    width: 75%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: blanchedalmond;
+    float: right;
 }
     
 
@@ -151,23 +149,22 @@ img {
 
 
 h3 {
-    font-size: 30px;
-    color: white; 
+    font-size: 50px;
+    color: grey; 
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
 }
 
-.benefits {
+.title {
     margin-right: 20px;
     padding: 20px;
-    clear: both;
-    float: right;
     width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: red;
+    float: left;
 }
 
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
+.title-about-me {
+    margin-bottom: 50px;
+    text-align: right; 
 }
