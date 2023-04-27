@@ -27,8 +27,15 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    background-color: pink;
+    color: grey;
+    text-decoration: none;
+}
+
 p {
     text-align: center;
+    font-size: 20px;
 }
 
 h1 {
@@ -64,7 +71,7 @@ header nav ul {
     list-style-type: none;
 }
 
-header nav ul li {
+header nav ul li, main nav ul li {
     display: inline-block;
     margin: 0.5em;
 }
@@ -98,6 +105,10 @@ section {
     padding: 20px;
   }
 
+main nav a { 
+    color: black;
+}
+
 /* Class Selectors*/
 /*image credits: Image by <a href="https://www.freepik.com/free-photo/decorative-background-wood-texture_4882032.htm#query=pinkwoodbackground&position=3&from_view=keyword&track=ais?sign-up=google">Freepik</a>*/
 .background {
@@ -112,6 +123,7 @@ section {
     justify-content: flex-end;
     align-content: center;
     align-items: center;
+    flex-direction: row;
 }
 
 .overlay-text {
@@ -165,10 +177,17 @@ section {
     margin-bottom: 25px;
     padding: 50px;
     height: 100px;
-    color: black;
+    color: grey;
     background-color: blanchedalmond;
     width: 95%;
     margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+    text-decoration-thickness: 0.25em;
+    text-underline-offset: 0.3em;
+    font-size: 20px;
 }
 
 .title-work {
@@ -189,23 +208,22 @@ section {
     height: 70px;
 }
 
+
 @media screen and (max-width: 992px) {
     header {
-      background: #772014;
+      background: white;
+    }
+  }
+
+@media screen and (max-width: 768px) {
+    aside {
+      background-color: violet;
     }
   }
   
-  /* Large smartphones - navbar changes color */
-  @media screen and (max-width: 768px) {
-    nav {
-      background-color: #bb8588;
-    }
-  }
-  
-  /* Small smartphones - image placeholders change color */
-  @media screen and (max-width: 576px) {
-    .sample-img {
-      background-color: #8ac4ff;
+@media screen and (max-width: 576px) {
+    section {
+      background-color: skyblue;
     }
   }
   
