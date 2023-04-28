@@ -113,6 +113,9 @@ section {
 main nav a { 
     color: black;
 }
+footer {
+    text-align: center;
+}
 
 /* Class Selectors*/
 /*image credits: Image by <a href="https://www.freepik.com/free-photo/decorative-background-wood-texture_4882032.htm#query=pinkwoodbackground&position=3&from_view=keyword&track=ais?sign-up=google">Freepik</a>*/
@@ -133,7 +136,6 @@ main nav a {
 
 .overlay-text {
     color: grey; 
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.75em;
     align-self: flex-end;
     margin-top: 100px;
@@ -146,13 +148,13 @@ main nav a {
     align-items: baseline;
     flex-wrap: nowrap;
     flex-direction: row-reverse;
+    justify-content: center;
 }
   
 .about-me { 
     margin-left: 25px;
     padding: 50px;
     height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: black;
     background-color: blanchedalmond;
     width: 95%;
@@ -177,6 +179,7 @@ main nav a {
     display: flex; 
     align-items: center;
     justify-content: center;
+    align-items: center;
     text-align: center;
 }
     
