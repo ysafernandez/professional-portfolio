@@ -113,11 +113,9 @@ section {
 main nav a { 
     color: black;
 }
-
 footer {
     text-align: center;
 }
-
 
 /* Class Selectors*/
 /*image credits: Image by <a href="https://www.freepik.com/free-photo/decorative-background-wood-texture_4882032.htm#query=pinkwoodbackground&position=3&from_view=keyword&track=ais?sign-up=google">Freepik</a>*/
@@ -178,7 +176,9 @@ footer {
     background-color: blanchedalmond;
     width: 95%;
     margin-left: 20px;
-    display: flex;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
     align-items: center;
     text-align: center;
 }
